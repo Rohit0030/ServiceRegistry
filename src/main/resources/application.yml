@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+#   client.fatch-registry: false means...ye khud register nhi hoga eureka server pr ye by default true hota hai so mene isko false kia kyuki ye register n ho jjaye
+  client:
+    fetch-registry: false
+    register-with-eureka: false
